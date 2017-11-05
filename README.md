@@ -7,7 +7,7 @@ This project aims to make it easier to work with controls as modules instead of 
 
 #### AMD
 
-```
+```js
 define(['threejs-controls/EditorControls'], function(EditorControls){
     var control = new EditorControls(parameters);
 });
@@ -16,7 +16,7 @@ define(['threejs-controls/EditorControls'], function(EditorControls){
 
 #### CommonJS
 
-```
+```js
 var EditorControls = require('threejs-controls/EditorControls');
 var control = new EditorControls(parameters);
 
@@ -24,7 +24,7 @@ var control = new EditorControls(parameters);
 
 #### ES6 imports
 
-```
+```js
 import EditorControls from 'threejs-controls/EditorControls';
 
 const control = new EditorControls(paramenters);
