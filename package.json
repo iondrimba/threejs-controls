@@ -1,0 +1,25 @@
+{
+  "name": "threejs-controls",
+  "version": "1.0.0",
+  "description": "Controls exported as UMD modules",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iondrimba/threejs-controls.git"
+  },
+  "keywords": [
+    "threejs",
+    "UMD",
+    "controls",
+    "commonjs"
+  ],
+  "author": "Ion D. Filho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iondrimba/threejs-controls/issues"
+  },
+  "homepage": "https://github.com/iondrimba/threejs-controls#readme"
+}
