@@ -1,6 +1,16 @@
-# Threejs Controls as UMD modules
+# Threejs Controls as modules using UMD (Universal Module Definition)
 
-This project aims to make it easier to work with controls as modules instead of having to manually copy the files from the examples/controls folder
+This project aims to make it easier to work with controls as modules instead of having to manually copy the files from the examples/controls folder.
+
+#### Install
+
+```sh
+npm i --save threejs-controls
+```
+or
+```sh
+yarn add threejs-controls
+```
 
 ### Usage
 
@@ -8,10 +18,9 @@ This project aims to make it easier to work with controls as modules instead of 
 #### AMD
 
 ```js
-define(['threejs-controls/EditorControls'], function(EditorControls){
+define(['threejs-controls/EditorControls'], function(EditorControls) {
     var control = new EditorControls(parameters);
 });
-
 ```
 
 #### CommonJS
@@ -19,16 +28,13 @@ define(['threejs-controls/EditorControls'], function(EditorControls){
 ```js
 var EditorControls = require('threejs-controls/EditorControls');
 var control = new EditorControls(parameters);
-
 ```
 
 #### ES6 imports
 
 ```js
 import EditorControls from 'threejs-controls/EditorControls';
-
 const control = new EditorControls(paramenters);
-
 ```
 
 
