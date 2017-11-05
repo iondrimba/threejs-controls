@@ -60,4 +60,4 @@ const control = new EditorControls(paramenters);
 
 ### TODO
 
-* Test the remaing controls
+* Test the remaining controls
