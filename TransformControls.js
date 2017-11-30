@@ -232,7 +232,7 @@
 
   var TransformGizmoTranslate = function () {
 
-    THREE.TransformGizmo.call(this);
+    TransformGizmo.call(this);
 
     var arrowGeometry = new THREE.Geometry();
     var mesh = new THREE.Mesh(new THREE.CylinderGeometry(0, 0.05, 0.2, 12, 1, false));
@@ -365,7 +365,7 @@
 
   var TransformGizmoRotate = function () {
 
-    THREE.TransformGizmo.call(this);
+    TransformGizmo.call(this);
 
     var CircleGeometry = function (radius, facing, arc) {
 
@@ -448,7 +448,7 @@
 
     this.update = function (rotation, eye2) {
 
-      THREE.TransformGizmo.prototype.update.apply(this, arguments);
+      TransformGizmo.prototype.update.apply(this, arguments);
 
       var tempMatrix = new THREE.Matrix4();
       var worldRotation = new THREE.Euler(0, 0, 1);
@@ -508,7 +508,7 @@
 
   var TransformGizmoScale = function () {
 
-    THREE.TransformGizmo.call(this);
+    TransformGizmo.call(this);
 
     var arrowGeometry = new THREE.Geometry();
     var mesh = new THREE.Mesh(new THREE.BoxGeometry(0.125, 0.125, 0.125));
@@ -629,9 +629,9 @@
     var _dragging = false;
     var _gizmo = {
 
-      "translate": new THREE.TransformGizmoTranslate(),
-      "rotate": new THREE.TransformGizmoRotate(),
-      "scale": new THREE.TransformGizmoScale()
+      "translate": new TransformGizmoTranslate(),
+      "rotate": new TransformGizmoRotate(),
+      "scale": new TransformGizmoScale()
     };
 
     for (var type in _gizmo) {
