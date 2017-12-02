@@ -57,6 +57,7 @@ const control = new EditorControls(paramenters);
 * EditorControls
 * OrbitControls
 * TrackballControls
+* TransformControls
 
 ### TODO
 
